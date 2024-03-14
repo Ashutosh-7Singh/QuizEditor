@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #4e4376, #2b5876); /* Cool gradient background */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    margin: 0; /* Remove default margin */
+    /* display: flex;  */
+    justify-content: center; /* Align content horizontally */
+    align-items: center; /* Align content vertically */
+  }

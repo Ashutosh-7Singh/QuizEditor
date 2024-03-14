@@ -1,0 +1,346 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #eee6ed; /* Cool background color */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hr {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.code {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    font-size: 18px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+
+.option {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Added border-color transition */
+    font-size: 20px;
+    border: 2px solid grey; 
+}
+
+.correct {
+    background-color: #d4edda !important; /* Bootstrap success color */
+    border-color: #28a745 !important; /* Green border when correct */
+}
+
+.wrong {
+    background-color: #f8d7da !important; /* Bootstrap danger color */
+    border-color: #dc3545 !important; /* Red border when wrong */
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+    border-color: #c9d1d1; /* Highlight border on hover */
+}
+
+
+.nextButton {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #431292;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.nextButton:hover {
+    background-color: #0056b3;
+}
+
+.resetButton {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.resetButton:hover {
+    background-color: #c82333; /* Slightly darker shade */
+}
+
+.index {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 18px;
+}
+/* Quiz.module.css */
+.tryNowButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    /* color: white; */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tryNowButton:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+
+/* .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hr {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.code {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    font-size: 18px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.option {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    border: 2px solid #007bff;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.correct {
+    background-color: #d4edda !important; 
+}
+
+.wrong {
+    background-color: #f8d7da !important; 
+}
+
+.nextButton {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.nextButton:hover {
+    background-color: #0056b3;
+}
+
+.index {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 18px;
+} */
+
+
+
+/* .container {
+    max-width: 80vh;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hr {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.code {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    font-size: 18px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.option {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.correct {
+    background-color: #d4edda !important; 
+}
+
+.wrong {
+    background-color: #f8d7da !important; 
+}
+
+.nextButton {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.nextButton:hover {
+    background-color: #0056b3;
+}
+
+.index {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 18px;
+} */
+
+/* **************** */
+/* .container{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+   
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container button{
+    margin:auto ;
+    width: 250px;
+    height: 65px;
+    background-color: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+.container .correct{
+    background:#dffff2;
+    border-color: #00d397;
+}
+.container .wrong{
+    background:#FFEBEB;
+    border-color: #FF4A4A;
+} */
